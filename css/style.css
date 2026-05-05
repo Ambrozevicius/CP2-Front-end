@@ -43,10 +43,10 @@ html{
  padding:60px 0;
 }
 
-.grade-bolos{
+.bolos-imagens{
  display:grid;
  grid-template-columns:1fr 1fr 1fr;
- gap:15px;
+ gap:30px;
  margin:30px 20%;
 }
 
@@ -57,7 +57,8 @@ html{
 }
 
 .card-bolo-img{
- width:100%;
+ width:300px;
+ height: 300px;
  border-radius:8px;
 }
 
@@ -133,7 +134,7 @@ html{
  gap:10px;
 }
 
-.botoes-contato a{
+.botao-redes{
  background:#ec4899;
  color:#fff;
  padding:8px 15px;
