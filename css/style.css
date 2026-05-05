@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 *{
  margin:0;
  padding:0;
  box-sizing:border-box;
- font-family:'Poppins', sans-serif;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 html{
@@ -19,10 +22,16 @@ html{
  align-items:center;
  color:#fff;
  text-align:center;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .cabecalho h1{
  font-size:48px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .botao{
@@ -41,6 +50,9 @@ html{
 .secao-bolos{
  text-align:center;
  padding:60px 0;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .bolos-imagens{
@@ -48,28 +60,43 @@ html{
  grid-template-columns:1fr 1fr 1fr;
  gap:30px;
  margin:30px 20%;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .card-bolo{
  background:#fce7f3;
  padding:8px;
  border-radius:8px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .card-bolo-img{
  width:300px;
  height: 300px;
  border-radius:8px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .card-bolo:hover{
  transform:scale(1.04);
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .cozinheiros{
  padding:60px 20px;
  text-align:center;
  background:#fff1f2;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .lista-cozinheiros{
@@ -77,22 +104,34 @@ html{
  justify-content:center;
  gap:50px;
  margin-top:20px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .pessoa-img{
  width:200px;
  border-radius:5%;
  height: 250px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .pessoa-nome{
  margin-top:8px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .secao-contato{
  padding:70px 20px;
  background:#fbcfe8;
  text-align:center;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .formulario{
@@ -101,17 +140,26 @@ html{
  width:300px;
  margin:20px auto;
  gap:8px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .formulario input{
  padding:8px;
  border:none;
  border-radius:4px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 .texto{
  padding:8px;
  border:none;
  border-radius:4px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 .formulario input:valid {
  background-color: #d1fae5;
@@ -125,6 +173,9 @@ html{
  border:none;
  padding:10px;
  border-radius:4px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .botoes-contato{
@@ -132,6 +183,9 @@ html{
  display:flex;
  justify-content:center;
  gap:10px;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .botao-redes{
@@ -140,6 +194,9 @@ html{
  padding:8px 15px;
  border-radius:5px;
  text-decoration:none;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .rodape{
@@ -151,4 +208,73 @@ html{
 
 h2::first-letter{
  color:#ec4899;
+ font-family: "Supermercado One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+.avaliacoes {
+    background-color: #fbc2d4; 
+    padding: 60px 20px;
+    text-align: center;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.avaliacoes h2 {
+    color:rgb(0, 0, 0);
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-avaliacao {
+    background-color: #ff85a1; 
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-avaliacao:hover {
+    transform: translateY(-5px);
+}
+
+.estrelas {
+    color: #fff176; 
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.card-avaliacao p {
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.nome-cliente {
+    font-weight: bold;
+    display: block;
+    font-size: 0.9rem;
+    color:rgb(128, 88, 119);
 }
