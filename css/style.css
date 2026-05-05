@@ -1,0 +1,146 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:'Poppins', sans-serif;
+}
+
+html{
+ scroll-behavior:smooth;
+}
+
+.cabecalho{
+ height:100vh;
+ background:url("https://picsum.photos/1200/800");
+ background-size:cover;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ color:#fff;
+ text-align:center;
+}
+
+.cabecalho h1{
+ font-size:48px;
+}
+
+.botao{
+ background:#ec4899;
+ color:white;
+ padding:10px 20px;
+ border-radius:5px;
+ text-decoration:none;
+ margin-top:15px;
+}
+
+.botao:hover{
+ background:#be185d;
+}
+
+.secao-bolos{
+ text-align:center;
+ padding:60px 0;
+}
+
+.grade-bolos{
+ display:grid;
+ grid-template-columns:1fr 1fr 1fr;
+ gap:15px;
+ margin:30px 20%;
+}
+
+.card-bolo{
+ background:#fce7f3;
+ padding:8px;
+ border-radius:8px;
+}
+
+.card-bolo-img{
+ width:100%;
+ border-radius:8px;
+}
+
+.card-bolo:hover{
+ transform:scale(1.04);
+}
+
+.cozinheiros{
+ padding:60px 20px;
+ text-align:center;
+ background:#fff1f2;
+}
+
+.lista-cozinheiros{
+ display:flex;
+ justify-content:center;
+ gap:50px;
+ margin-top:20px;
+}
+
+.pessoa-img{
+ width:200px;
+ border-radius:5%;
+ height: 250px;
+}
+
+.pessoa-nome{
+ margin-top:8px;
+}
+
+.secao-contato{
+ padding:70px 20px;
+ background:#fbcfe8;
+ text-align:center;
+}
+
+.formulario{
+ display:flex;
+ flex-direction:column;
+ width:300px;
+ margin:20px auto;
+ gap:8px;
+}
+
+.formulario input,
+.formulario textarea{
+ padding:8px;
+ border:none;
+ border-radius:4px;
+}
+.formulario input:valid {
+ background-color: #d1fae5;
+}
+.botao{
+ background:#ec4899;
+ color:white;
+ border:none;
+ padding:10px;
+ border-radius:4px;
+}
+
+.botoes-contato{
+ margin-top:20px;
+ display:flex;
+ justify-content:center;
+ gap:10px;
+}
+
+.botoes-contato a{
+ background:#ec4899;
+ color:#fff;
+ padding:8px 15px;
+ border-radius:5px;
+ text-decoration:none;
+}
+
+.rodape{
+ background:#881337;
+ color:white;
+ text-align:center;
+ padding:20px;
+}
+
+h2::first-letter{
+ color:#ec4899;
+}
