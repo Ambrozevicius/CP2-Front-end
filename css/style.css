@@ -212,3 +212,68 @@ h2::first-letter{
  font-weight: 400;
  font-style: normal;
 }
+
+.avaliacoes {
+    background-color: #fbc2d4; 
+    padding: 60px 20px;
+    text-align: center;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.avaliacoes h2 {
+    color: #d63384;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-avaliacao {
+    background-color: #ff85a1; 
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    font-family: "Supermercado One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-avaliacao:hover {
+    transform: translateY(-5px);
+}
+
+.estrelas {
+    color: #fff176; 
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.card-avaliacao p {
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.nome-cliente {
+    font-weight: bold;
+    display: block;
+    font-size: 0.9rem;
+}
