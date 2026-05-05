@@ -223,7 +223,7 @@ h2::first-letter{
 }
 
 .avaliacoes h2 {
-    color: #d63384;
+    color:rgb(0, 0, 0);
     margin-bottom: 40px;
     font-size: 2rem;
     font-family: "Supermercado One", sans-serif;
@@ -276,4 +276,5 @@ h2::first-letter{
     font-weight: bold;
     display: block;
     font-size: 0.9rem;
+    color:rgb(128, 88, 119);
 }
