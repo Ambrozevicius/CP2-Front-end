@@ -102,14 +102,21 @@ html{
  gap:8px;
 }
 
-.formulario input,
-.formulario textarea{
+.formulario input{
+ padding:8px;
+ border:none;
+ border-radius:4px;
+}
+.texto{
  padding:8px;
  border:none;
  border-radius:4px;
 }
 .formulario input:valid {
  background-color: #d1fae5;
+}
+.formulario input:invalid {
+ background-color: #ff8095;
 }
 .botao{
  background:#ec4899;
