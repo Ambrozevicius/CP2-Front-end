@@ -58,7 +58,8 @@ CP2-Front-end/
 
 ## ▶️ Como Executar
 
-1. Abra o link no Github Pages
+1. Abra o link abaixo do Github Pages
+  https://ambrozevicius.github.io/CP2-Front-end/#bolos
 ---
 
 ## 👨‍💻 Integrantes
