@@ -48,7 +48,6 @@ CP2-Front-end/
 │ └── style.css
 │
 ├── imagens/
-│ └── bolo_chocolate.jpg
 │
 ├── index.html
 ├── integrantes.txt
