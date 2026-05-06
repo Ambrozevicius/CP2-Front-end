@@ -8,10 +8,12 @@
  font-family: "Supermercado One", sans-serif;
 }
 
+
 *::selection{
 background-color: #ec4899;
 color: #fff;
 }
+
 
 html{
  scroll-behavior: smooth;
@@ -120,10 +122,10 @@ html{
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 2s;
+  transition: transform 0.4s;
 }
 .pessoa-img:hover{
- transform: rotateZ(720deg);
+ transform:scale(1.05);
 }
 .pessoa-nome{
  margin-top:8px;
@@ -211,11 +213,6 @@ html{
 }
 
 
-h2::first-letter{
- color:#ec4899;
- font-weight: 400;
- font-style: normal;
-}
 
 .avaliacoes {
   background-color: #fbc2d4; 
@@ -281,7 +278,7 @@ h2::first-letter{
 
 .faq {
   padding: 60px 20px;
-  background-color: #fff;
+  background-color: #fab3c9;
   text-align: center;
 }
 
